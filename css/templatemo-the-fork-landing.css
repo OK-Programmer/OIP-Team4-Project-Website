@@ -11,14 +11,14 @@ https://templatemo.com/tm-588-ebook-landing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #E76F51;
-  --secondary-color:              #E9C46A;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #F4A261;
-  --custom-btn-bg-hover-color:    #E76F51;
+  --primary-color:                #04e5fe;
+  --secondary-color:              #20B2AA;
+  --section-bg-color:             #f0f9ff;
+  --custom-btn-bg-color:          #4682B4;
+  --custom-btn-bg-hover-color:    #2E8B57;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #2E8B57;
 
   --body-font-family:             'Unbounded', sans-serif;
 
@@ -553,7 +553,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/kelvin-walkway.jpg');
+  background-image: url('../images/kelvin.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
