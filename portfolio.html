@@ -28,11 +28,12 @@
 <body>
 
     <main>
+
         <nav class="navbar navbar-expand-lg bg-dark text-center">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <i class="navbar-brand-icon bi-recycle me-2"></i>
-                    <span>The FORK</span>
+                    <span>Team 4</span>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -76,7 +77,7 @@
 
         <!-- Section Switcher -->
         <section style="margin-top:80px;">
-            <div class="bg-light shadow-sm px-4 py-3 mt-5 mb-4 rounded">
+            <div class="bg-light shadow-sm px-4 py-3 mt-5 rounded">
                 <div class="d-flex align-items-center flex-wrap gap-2" style="padding: 20px; justify-content: center;">
                     <span class="text-primary fw-semibold me-3">Sections:</span>
                     <button class="btn btn-outline-dark" onclick="showSection('weeklyProgressSection')">Weekly Progress</button>
@@ -88,7 +89,8 @@
 
         <div id="weeklyProgressSection">
 
-            <section class="book-section section-padding" id="section_2" >
+        <section class="book-section section-padding" id="section_2" >
+        
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center">
@@ -97,8 +99,6 @@
                         <p>Follow our weekly updates as we build the AI-powered litter logging platform.</p>
                     </div>
                 </div>
-
-                
 
                 <div class="row g-4">
                     <!-- Week 1 -->
@@ -137,12 +137,12 @@
                     </div>
                 </div>
             </div>
+        
         </section>
 
         <section>
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-12 col-12 text-center">
                         <h6>Project Reflection</h6>
                         <h2 class="mb-5">Weekly Insights & Learnings</h2>
@@ -163,7 +163,7 @@
                             class="scrollspy-example-2" tabindex="0">
 
                             <!-- Week 1 -->
-                            <div class="scrollspy-example-item" id="week-1" style="line-height: 1.8;">
+                            <div class="scrollspy-example-item" id="week-1" style="line-height: 1.8; text-align: justify;">
                                 <h5>Week 1: Ideation & Planning</h5>
                                 <p>This week marked the official start of our project. We began by speaking with our stakeholder Sally, chairperson of Friends of the River Kelvin (FORK), 
                                     to better understand the littering and pollution issues affecting the river. Using the Double Diamond design process, 
@@ -171,26 +171,28 @@
                                 <p>These insights led us into the "Define" and "Develop" phases, where we held a brainstorming session to explore possible solutions.
                                     Sally’s input was crucial here, as she emphasized how difficult it is for volunteers to manually record the type, quantity, and location of litter.</p> 
                                 <p>To support collaboration, we finalized our team contract, defined individual roles, and set up a GitHub repository and shared drive to keep our work organized and avoid miscommunication.
-                                    We ended the week with a clear, user-driven direction and a strong plan to guide our project forward.</p>
+                                    We ended the week with a clear, user-driven problem statement and a strong set of solution ideas to guide our project forward.</p>
                                 <br>
                                 <figure style="text-align: center;">
                                     <iframe src="teamcontractT4.pdf" width="100%" height="600px"></iframe>
                                     <figcaption>Figure: Team Contract (Team 4)</figcaption>
                                 </figure>
-                                </div>
+                            </div>
 
                             <!-- Week 2 -->
-                            <div class="scrollspy-example-item" id="week-2">
+                            <div class="scrollspy-example-item" id="week-2" style="line-height: 1.8; text-align: justify;">
                                 <h5>Week 2: Prototyping & Iterative Testing</h5>
                                 <p>
                                     During our initial brainstorming and ideation phase, we looked into existing applications that tackle litter tracking and environmental monitoring. One key suggestion from our stakeholder Sally was the 
-                                    <a href="https://what3words.com/" target="_blank" rel="noopener noreferrer">what3words</a> app, that provides a fast and convenient way to provide location to others and was also mentioned to be quite popular recently.
-                                </p> <p> This sparked ideas around how precise location tracking could enhance the effectiveness of litter logging. We also examined existing water pollution efforts like <a href="https://www.mrtrashwheel.com/">Mr Trash Wheel</a> and <a href="https://www.stormwatersystems.com/stormx-netting-trash-trap">StormX</a> to understand their methods and technologies, and apps like 
+                                    <a href="https://what3words.com/" target="_blank" rel="noopener noreferrer">what3words</a> app, that provides a fast and convenient way to provide geo-locational information to others and was also mentioned to be quite popular recently.
+                                </p> 
+                                <p> This sparked ideas around how precise location tracking could enhance the effectiveness of litter logging. We also examined existing water pollution efforts like <a href="https://www.mrtrashwheel.com/">Mr Trash Wheel</a> and <a href="https://www.stormwatersystems.com/stormx-netting-trash-trap">StormX</a> to understand their methods and technologies, and apps like 
                                     <a href="https://www.litterati.org/" target="_blank" rel="noopener noreferrer">Litterati</a> and 
                                     <a href="https://debristracker.org/" target="_blank" rel="noopener noreferrer">Marine Debris Tracker</a>, 
                                     which allow users to geotag litter and categorize it by type. </p><p>These platforms highlighted the potential of combining geographic data with community engagement to build meaningful datasets. 
                                     Inspired by their strengths and being mindful of their limitations in data consistency and user participation, we used integrative thinking to weigh both manual and automated models for monitoring litter. 
-                                </p><p> Afterwhich, we developed the <a href="prototype.html#flow-diagram">flow diagram</a> to better help us visualize the user journey and identify key features for our prototype. 
+                                </p>
+                                <p> Afterwhich, we developed the <a href="prototype.html#flow-diagram">flow diagram</a> to better help us visualize the user journey and identify key features for our prototype. 
                                     We then created a Lo-Fi paper and draw.io prototype, before finally ending up with the Figma prototype illustrating how our app, LitterLogger, would allow users to report litter, 
                                     track clean-up efforts, and support environmental awareness around the River Kelvin. We also carried out iterative testing with our team to refine the design and ensure it was user-friendly and intuitive.
                                 </p>
@@ -199,152 +201,175 @@
                                     <iframe src="IntegrativeThinkingT4.pdf" width="100%" height="600px"></iframe>
                                     <figcaption>Figure: Integrative Thinking Report (Team 4)</figcaption>
                                 </figure>
-                                </div>
+                            </div>
 
                             <!-- Week 3 -->
-                            <div class="scrollspy-example-item" id="week-3">
+                            <div class="scrollspy-example-item" id="week-3" style="line-height: 1.8; text-align: justify;">
                                 <h5>Week 3: Usability Evaluation and Poster Creation</h5>
-    
-                                <p>Following Week 2’s stakeholder interview, we presented our Figma prototype to Sally and conducted a heuristic evaluation as part of our usability testing.
-                                     This collaborative session provided valuable feedback, helping us identify key improvements to better address user needs. 
-                                     Sally recommended adding a sign-up feature for residents to register as volunteers, enabling users to download historical litter data logged in the app, 
-                                     and including a newsletter page to highlight the organization’s litter-picking efforts. 
-                                    </p><p> Additionally, we dedicated time to discussing and designing a poster that effectively showcases the prototype’s key features and promotes our solution. 
-                                    These insights and activities have guided our next development phase, focusing on enhancing user engagement and improving data accessibility.</p>
-                                      <br>
+                                <p>
+                                    Following Week 2’s stakeholder interview, we presented our Figma prototype to Sally and conducted a heuristic evaluation as part of our usability testing.
+                                    This collaborative session provided valuable feedback, helping us identify key improvements to better address user needs. 
+                                    Sally recommended adding a few more thing such as a page to ask if users would like to become a member of FORK, 
+                                    a page enabling users to download historical litter data logged in the app,
+                                    and a newsletter page to highlight the organization's litter-picking efforts. 
+                                </p>
+                                <p> 
+                                    Additionally, we dedicated time to discussing and designing a poster that effectively showcases the project's problem statement, 
+                                    solution, and our prototype's key features in a visually appealing way.
+                                    The poster serves as a promotional tool to raise awareness about the litter problem in the River Kelvin and our proposed solution,
+                                    while also providing a clear overview of our app's functionality.
+                                    Drawing the poster taught us the importance of clear communication and visual storytelling in conveying our ideas to a wider audience.
+                                </p>
+                                <br>
                                 <figure style="text-align: center;">
                                     <iframe src="T4Poster.pdf" width="100%" height="600px"></iframe>
                                     <figcaption>Figure: Team Poster (Team 4)</figcaption>
                                 </figure>
                             </div>
-                          </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
-    </div>
-    <!-- Partner Reflection Section with Styled Container -->
-<div id="partnerReflectionSection" style="display: block; padding: 60px 20px; background-color: #f9f9f9;">
-    <div style="background-color: #ffffff; max-width: 850px; margin: auto; padding: 40px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Segoe UI', sans-serif; color: #1a1a1a; line-height: 1.8; font-size: 1.05rem;">
-
-        <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #111827;">Partner Reflection</h2>
-
-        <p style="margin-bottom: 1.2em;">
-            Our engagement with our project partner, Sally, the chairperson of Friends of the River Kelvin (FORK), was a pivotal part of our design process. As a long-time advocate for community-led environmental action, Sally provided grounded, context-rich insights that guided not only our understanding of the problem but also the direction of our solution.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Feedback on the User Interface</h3>
-        <p style="margin-bottom: 1.2em;">
-            One of the most affirming moments in our development process was receiving positive feedback from Sally on our app prototype. She described the user interface as <strong>“down-to-earth, user-focused, and intuitive”</strong>, noting that it avoided the often-corporate feel of environmental tech apps. This validation was particularly meaningful to us, as we intentionally designed with <strong>accessibility and approachability</strong> in mind — knowing that FORK is composed largely of volunteers, students, and older residents who may not be tech-savvy. Her feedback confirmed that we were striking the right balance between functionality and friendliness.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Feature Requests and Operational Insight</h3>
-        <p style="margin-bottom: 1.2em;">
-            Sally also suggested several valuable features that reshaped the final direction of our prototype:
-        </p>
-        <ul style="margin-left: 1.2em; margin-bottom: 1.2em;">
-            <li><strong>Volunteer sign-up system</strong> to allow users to register for clean-up efforts directly.</li>
-            <li><strong>Newsletter or update section</strong> to keep users informed and engaged.</li>
-            <li><strong>Data export feature</strong> so FORK can easily share litter reports with councils and partners.</li>
-        </ul>
-
-        <p style="margin-bottom: 1.2em;">
-            These suggestions reflected real operational pain points in FORK’s current workflows. For example, we learned that Sally often had to manually message volunteers and record litter data by hand in a notebook before transferring it to a spreadsheet. Implementing these features would not only reduce her workload but also create a more <strong>scalable and sustainable system</strong> for future FORK teams.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Building Community, Not Just Tools</h3>
-        <p style="margin-bottom: 1.2em;">
-            Sally’s feedback helped us see our app not just as a reporting tool, but as a <strong>community-building platform</strong>. She emphasised the need to keep volunteers feeling involved and appreciated — through recognition, updates, and potential reward schemes. This insight directly shaped our later thinking around gamification features like leaderboards and reward partnerships with local businesses.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">The Role of Geolocation and what3words</h3>
-        <p style="margin-bottom: 1.2em;">
-            Another key takeaway was Sally’s emphasis on the need for <strong>geospatial data to improve resource allocation</strong>. This reinforced our integration of <strong>what3words</strong>, which enables users to pinpoint 3m x 3m litter locations using three-word addresses — far more precise than GPS pins in wooded or unstructured areas.
-        </p>
-
-        <blockquote style="margin: 2em 0; padding: 1em 1.5em; background-color: #f0fdf4; border-left: 4px solid #10b981; font-style: italic; color: #065f46;">
-            “From this partnership, we gained more than just feedback — we gained a real understanding of what sustainable grassroots collaboration looks like.”
-        </blockquote>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">🔍 Key Reflections and Takeaways</h3>
-        <ul style="margin-left: 1.2em; margin-bottom: 1.2em;">
-            <li><strong>Human-Centric Validation:</strong> Sally’s praise reminded us that in environmental tech, usability matters just as much as functionality.</li>
-            <li><strong>Feature Prioritisation:</strong> Her insights shaped critical additions like volunteer sign-ups and data exports.</li>
-            <li><strong>Scalability Awareness:</strong> Reducing manual admin tasks (like messaging and data entry) has a high-impact benefit.</li>
-            <li><strong>Ongoing Engagement is Crucial:</strong> A solution must nurture the community it serves — not just deliver outputs.</li>
-        </ul>
-
-        <p style="margin-bottom: 0;">
-            In future projects, we aim to incorporate even more structured cycles of feedback with our partners earlier in the design phase, to better align feature sets with real-world workflows. Our experience working with Sally reaffirmed that <strong>meaningful client collaboration is not a checkbox — it’s a co-creative process</strong> that leads to more impactful, sustainable outcomes.
-        </p>
-    </div>
-</div>
-
-
- <!-- Team Essay Section -->
-<!-- Team Essay Section with Styled Container -->
-<div id="teamEssaySection" style="display: block; padding: 60px 20px; background-color: #f9f9f9;">
-    <div style="background-color: #ffffff; max-width: 850px; margin: auto; padding: 40px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Segoe UI', sans-serif; color: #1a1a1a; line-height: 1.8; font-size: 1.05rem;">
-
-        <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #111827;">Team Essay</h2>
-
-        <p style="margin-bottom: 1.2em;">
-            Over the course of our collaboration with Friends of the River Kelvin (FORK), our team sought to tackle the persistent issue of litter pollution in and around the River Kelvin. Through user research, prototyping, and iterative stakeholder engagement, we designed a digital solution that empowers volunteers and the wider community to report litter sightings while supporting FORK’s mission of environmental stewardship. This project was both challenging and rewarding, and it has provided several points of pride as well as reflection on what could have been done better.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Empathetic Design Approach</h3>
-        <p style="margin-bottom: 1.2em;">
-            One of the aspects we are most proud of is our <strong>empathetic approach to user-centred design</strong>. Rather than jumping straight into solutions, we immersed ourselves in the environment — walking the riverbanks, observing the litter firsthand, and role-playing as both app users and FORK staff. This hands-on method allowed us to deeply understand the pain points: the lack of structured data on litter, the manual recording processes, and the overwhelming workload on a volunteer-led organisation with no paid staff. Our solution — a mobile web app that allows users to log litter types and locations — directly reflects those insights.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Precision with what3words</h3>
-        <p style="margin-bottom: 1.2em;">
-            A particularly meaningful feature we incorporated was the <strong>integration of what3words</strong> technology to improve location accuracy. While traditional GPS mapping services like Google Maps and Apple Maps provide general coordinates, they often fall short in pinpointing specific micro-locations along a natural feature like a river, especially in wooded or non-urbanised areas. what3words allowed us to overcome this limitation by enabling users to tag exact 3m x 3m squares using just three unique words. This drastically improved the <strong>precision of litter location data</strong> in our app, making it easier for volunteers and FORK staff to locate reported litter hotspots. In areas where there are no formal addresses or distinct map labels, this integration allowed for seamless communication and follow-up action. By using what3words, we made the reporting process both more intuitive for the public and more operationally useful for the organisation.
-        </p>
-
-        <blockquote style="margin: 2em 0; padding: 1em 1.5em; background-color: #ecfdf5; border-left: 4px solid #10b981; font-style: italic; color: #065f46;">
-            “By using what3words, we made the reporting process both more intuitive for the public and more operationally useful for the organisation.”
-        </blockquote>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Iterative Prototyping</h3>
-        <p style="margin-bottom: 1.2em;">
-            Another proud achievement was the <strong>iterative refinement of our prototypes</strong>. Starting from hand-drawn wireframes, we progressed through tools like Draw.io and ultimately delivered a clean, functional Figma prototype. Each prototype was tested for usability and updated with feedback from FORK. The positive reception we received from our partner — describing our design as “down-to-earth,” “user-focused,” and “intuitive” — affirmed the value of our design choices.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Bridging Two Models</h3>
-        <p style="margin-bottom: 1.2em;">
-            Importantly, we also demonstrated <strong>integrative thinking</strong> by balancing two opposing models: manual community monitoring and automated tech-driven solutions. Instead of choosing one extreme, we proposed a hybrid approach that integrates the strengths of both — fostering community ownership while enabling scalable, data-rich reporting. This not only respected FORK’s grassroots ethos but also introduced a path forward for more evidence-based environmental interventions.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Limitations & Missed Opportunities</h3>
-        <p style="margin-bottom: 1.2em;">
-            However, not all aspects of the project reached the standard we had hoped for. One area we are less proud of is the <strong>limited scope of technical implementation</strong>. Due to time and technical constraints, we were unable to develop a fully functional prototype with backend integration or live geospatial tracking. While the designs were thoughtful, the absence of a working system meant that our solution remains conceptual rather than deployable. In hindsight, prioritising even a basic working MVP (Minimum Viable Product) could have enhanced our project's practical value for FORK.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Improvements If Given More Time</h3>
-        <p style="margin-bottom: 1.2em;">
-            If we had more time, there are several improvements we would pursue. First, we would aim to develop a fully functional mobile application with live backend connectivity, integrated map views, and real-time litter heatmaps. We would also prioritise building a volunteer leaderboard and gamification system to incentivise long-term engagement, which FORK highlighted as a useful motivator. Additionally, we would seek to initiate formal partnerships with local businesses and environmental councils to offer tangible rewards (e.g. discounts, tokens) for volunteers who consistently contribute to cleanup efforts. On the technical front, we would also explore AI-powered litter classification features to help users identify recyclable items — a valuable step toward FORK’s long-term vision of recognising the monetary value in waste like aluminium and glass. Finally, we would conduct extended user testing across multiple stakeholder groups, including schools and local organisations, to ensure inclusivity and accessibility.
-        </p>
-
-        <p style="margin-bottom: 1.2em;">
-            Moreover, we believe we could have gone further in <strong>engaging the wider community and potential partners</strong>. Although we listed possible collaborations with organisations like Greggs, Nando’s, and Glasgow City Council, we did not actively pursue these stakeholders during the project. This limited our understanding of what incentives could realistically encourage cross-sector partnerships or reward-based volunteer models. Given the importance of long-term sustainability, this is a missed opportunity.
-        </p>
-
-        <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Final Thoughts</h3>
-        <p style="margin-bottom: 1.2em;">
-            Looking more broadly, our project also touched upon <strong>complex environmental justice issues</strong> — such as the impact of “forever chemicals” and sewage runoff during heavy rains — but these concerns were beyond the scope of our app solution. Future iterations might benefit from linking litter logging with educational content or advocating for policy reforms alongside civic action.
-        </p>
-
-        <p style="margin-bottom: 0;">
-            In summary, we are proud of our project's empathy-driven methodology, our integration of community and tech perspectives, and the clarity and usability of our design. The integration of what3words in particular was a significant step forward in overcoming a real-world logistical challenge. At the same time, we recognise our limitations in technical execution and stakeholder outreach. Nonetheless, the project stands as a meaningful step towards data-driven environmental action — one that has real potential if taken forward in partnership with FORK and other civic actors.
-        </p>
-    </div>
-</div>
-
 
         </div>
-    </div>
+    
+        <!-- Partner Reflection Section with Styled Container -->
+        <div id="partnerReflectionSection" style="display: block; padding: 20px; background-color: #f9f9f9;">
+            <div style="
+                background-color: #ffffff; 
+                max-width: 850px; 
+                margin: auto; 
+                padding: 40px; 
+                border-radius: 12px; 
+                box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+                color: #1a1a1a; 
+                line-height: 1.8; 
+                text-align: justify;"
+            >
+
+                <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #111827;">Partner Reflection</h2>
+
+                <p style="margin-bottom: 1.2em;">
+                    Our engagement with our project partner, Sally, the chairperson of Friends of the River Kelvin (FORK), was a pivotal part of our design process. As a long-time advocate for community-led environmental action, Sally provided grounded, context-rich insights that guided not only our understanding of the problem but also the direction of our solution.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Feedback on the User Interface</h3>
+                <p style="margin-bottom: 1.2em;">
+                    One of the most affirming moments in our development process was receiving positive feedback from Sally on our app prototype. She described the user interface as <strong>“down-to-earth, user-focused, and intuitive”</strong>, noting that it avoided the often-corporate feel of environmental tech apps. This validation was particularly meaningful to us, as we intentionally designed with <strong>accessibility and approachability</strong> in mind — knowing that FORK is composed largely of volunteers, students, and older residents who may not be tech-savvy. Her feedback confirmed that we were striking the right balance between functionality and friendliness.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Feature Requests and Operational Insight</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Sally also suggested several valuable features that reshaped the final direction of our prototype:
+                </p>
+                <ul style="margin-left: 1.2em; margin-bottom: 1.2em;">
+                    <li><strong>Volunteer sign-up system</strong> to allow users to register for clean-up efforts directly.</li>
+                    <li><strong>Newsletter or update section</strong> to keep users informed and engaged.</li>
+                    <li><strong>Data export feature</strong> so FORK can easily share litter reports with councils and partners.</li>
+                </ul>
+
+                <p style="margin-bottom: 1.2em;">
+                    These suggestions reflected real operational pain points in FORK’s current workflows. For example, we learned that Sally often had to manually message volunteers and record litter data by hand in a notebook before transferring it to a spreadsheet. Implementing these features would not only reduce her workload but also create a more <strong>scalable and sustainable system</strong> for future FORK teams.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Building Community, Not Just Tools</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Sally’s feedback helped us see our app not just as a reporting tool, but as a <strong>community-building platform</strong>. She emphasised the need to keep volunteers feeling involved and appreciated — through recognition, updates, and potential reward schemes. This insight directly shaped our later thinking around gamification features like leaderboards and reward partnerships with local businesses.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">The Role of Geolocation and what3words</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Another key takeaway was Sally’s emphasis on the need for <strong>geospatial data to improve resource allocation</strong>. This reinforced our integration of <strong>what3words</strong>, which enables users to pinpoint 3m x 3m litter locations using three-word addresses — far more precise than GPS pins in wooded or unstructured areas.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Key Reflections and Takeaways</h3>
+
+                <blockquote style="margin: 2em 0; padding: 1em 1.5em; background-color: #f0fdf4; border-left: 4px solid #10b981; font-style: italic; color: #065f46;">
+                    “From this partnership, we gained more than just feedback — we gained a real understanding of what sustainable grassroots collaboration looks like.”
+                </blockquote>
+
+                <ul style="margin-left: 1.2em; margin-bottom: 1.2em;">
+                    <li><strong>Human-Centric Validation:</strong> Sally's praise reminded us that in user-centric solutions, usability matters just as much as functionality.</li>
+                    <li><strong>Feature Prioritisation:</strong> Her insights shaped critical additions like volunteer sign-ups and data exports.</li>
+                    <li><strong>Scalability Awareness:</strong> Reducing manual admin tasks (like messaging and data entry) has a high-impact benefit.</li>
+                    <li><strong>Ongoing Engagement is Crucial:</strong> A solution must nurture the community it serves — not just deliver outputs.</li>
+                </ul>
+
+                <p style="margin-bottom: 0;">
+                    In future projects, we aim to incorporate even more structured cycles of feedback with our partners earlier in the design phase, to better align feature sets with real-world workflows. Our experience working with Sally reaffirmed that <strong>meaningful client collaboration is not a checkbox — it’s a co-creative process</strong> that leads to more impactful, sustainable outcomes.
+                </p>
+            </div>
+        </div>
+
+        <!-- Team Essay Section -->
+        <div id="teamEssaySection" style="display: block; padding: 20px; background-color: #f9f9f9;">
+            <div style="
+                background-color: #ffffff; 
+                max-width: 850px; 
+                margin: auto; 
+                padding: 40px; 
+                border-radius: 12px; 
+                box-shadow: 0 8px 24px rgba(0,0,0,0.08); 
+                color: #1a1a1a; 
+                line-height: 1.8; 
+                text-align: justify;"
+            >
+
+                <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #111827;">Team Essay</h2>
+
+                <p style="margin-bottom: 1.2em;">
+                    Over the course of our collaboration with Friends of the River Kelvin (FORK), our team sought to tackle the persistent issue of litter pollution in and around the River Kelvin. Through user research, prototyping, and iterative stakeholder engagement, we designed a digital solution that empowers volunteers and the wider community to report litter sightings while supporting FORK's mission of protecting the River Kelvin. This project was both challenging and rewarding, and it has provided several points of pride as well as reflection on what could have been done better.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Empathetic Design Approach</h3>
+                <p style="margin-bottom: 1.2em;">
+                    One of the aspects we are most proud of is our <strong>empathetic approach to user-centred design</strong>. Rather than jumping straight into solutions, we immersed ourselves in the environment — walking the riverbanks, observing the litter firsthand, and role-playing as both app users and FORK staff. This hands-on method allowed us to deeply understand the pain points: the lack of structured data on litter, the manual recording processes, and the overwhelming workload on a volunteer-led organisation with no paid staff. Our solution — a mobile web app that allows users to log litter types and locations — directly reflects those insights.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Precision with what3words</h3>
+                <p style="margin-bottom: 1.2em;">
+                    A particularly meaningful feature we incorporated was the <strong>integration of what3words</strong> technology to improve location accuracy. While traditional GPS mapping services like Google Maps and Apple Maps provide general coordinates, they often fall short in pinpointing specific micro-locations along a natural feature like a river, especially in wooded or non-urbanised areas. what3words allowed us to overcome this limitation by enabling users to tag exact 3m x 3m squares using just three unique words. This drastically improved the <strong>precision of litter location data</strong> in our app, making it easier for volunteers and FORK staff to locate reported litter hotspots. In areas where there are no formal addresses or distinct map labels, this integration allowed for seamless communication and follow-up action. By using what3words, we made the reporting process both more intuitive for the public and more operationally useful for the organisation.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Iterative Prototyping</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Another point of pride was our active engagement in the design process being taught, by <strong>iteratively refining our prototype.</strong> Starting from hand-drawn wireframes, we progressed through tools like Draw.io and ultimately delivered a clean, functional Figma prototype. Each prototype was tested for usability and updated with feedback from FORK. The positive reception we received from our partner — describing our design as “down-to-earth,” “user-focused,” and “intuitive” — affirmed the value of following an iterative process of design instead of simply focusing on a single solution.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Bridging Two Models</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Importantly, we also demonstrated <strong>integrative thinking</strong> by balancing two opposing models: litter reporting app made for the public and AI-powered data gathering made for the volunteers. Instead of choosing one idea, we proposed a hybrid solution that integrates the strengths of both — fostering community ownership while enabling scalable, convenient data gathering. This not only respected FORK's grassroots ethos but also introduced a path forward for more evidence-based environmental interventions.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Limitations & Missed Opportunities</h3>
+                <p style="margin-bottom: 1.2em;">
+                    However, not all aspects of the project reached the standard we had hoped for. One area we are less proud of is the <strong>limited scope of technical implementation</strong>. Due to time and technical constraints, we were unable to develop a fully functional prototype with backend integration or live geospatial tracking. While the designs were thoughtful, the absence of a working system meant that our solution remains conceptual rather than deployable. In hindsight, prioritising even a basic working MVP (Minimum Viable Product) could have enhanced our project's practical value for FORK.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Improvements If Given More Time</h3>
+                <p style="margin-bottom: 1.2em;">
+                    If we had more time, there are several improvements we would pursue. First, we would aim to develop a fully functional mobile application with live backend connectivity, integrated map views, and real-time litter heatmaps. We would also prioritise building a volunteer leaderboard and gamification system to incentivise long-term engagement, which FORK highlighted as a useful motivator.
+                </p>
+
+                <p style="margin-bottom: 1.2em;">
+                    Additionally, we would seek to initiate formal partnerships with local businesses and environmental councils to offer tangible rewards (e.g. discounts, tokens) for volunteers who consistently contribute to cleanup efforts. On the technical front, we would also explore AI-powered litter classification features to help users identify recyclable items — a valuable step toward FORK’s long-term vision of recognising the monetary value in waste like aluminium and glass. Finally, we would conduct extended user testing across multiple stakeholder groups, including schools and local organisations, to ensure inclusivity and accessibility.
+                </p>
+
+                <p style="margin-bottom: 1.2em;">
+                    Moreover, we believe we could have gone further in <strong>engaging the wider community and potential partners</strong>. Although FORK has had past collaborations with organisations like Greggs, Nando’s, and Glasgow City Council, we did not pursue any new partnerships during the project. This limited our understanding of what incentives could realistically encourage cross-sector partnerships or reward-based volunteer models. Given the importance of long-term sustainability, this is a missed opportunity.
+                </p>
+
+                <h3 style="font-size: 1.25rem; margin-top: 2rem; color: #0f172a;">Final Thoughts</h3>
+                <p style="margin-bottom: 1.2em;">
+                    Looking more broadly, our project also touched upon <strong>complex environmental justice issues</strong> — such as the impact of “forever chemicals” and sewage runoff during heavy rains — but these concerns were beyond the scope of our app solution. Future iterations might benefit from linking litter logging with educational content or advocating for policy reforms alongside civic action.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                    In summary, we are proud of our project's empathy-driven methodology, our integration of community and tech perspectives, and the clarity and usability of our design. The integration of what3words in particular was a significant step forward in overcoming a real-world logistical challenge. At the same time, we recognise our limitations in technical execution and stakeholder outreach. Nonetheless, the project stands as a meaningful step towards data-driven environmental action — one that has real potential if taken forward in partnership with FORK and other civic actors.
+                </p>
+            </div>
+        </div>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
@@ -354,17 +379,13 @@
         <script src="js/click-route.js"></script>
         <script src="js/custom.js"></script>
 
+    </main>
+
 </body>
 
 </html>
 
 <style>
-    #weeklyProgressSection,
-    #partnerReflectionSection,
-    #teamEssaySection {
-        margin-top: 30px;
-    }
-
     .card-img-top {
         height: 250px;         /* or any fixed height you prefer */
         object-fit: cover;     /* ensures the image fills the area without distortion */
