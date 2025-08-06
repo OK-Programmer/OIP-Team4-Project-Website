@@ -92,7 +92,7 @@
                         <img src="images/hiddenbin-idea.png" alt="hidden bin idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6" style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 1: "Hidden Bins” – A Playful Ad Stunt to Fight Litter</h3>
                         <p>
                             Place fake, funny bins in odd locations with cheeky signs like:
@@ -114,7 +114,7 @@
                         <img src="images/logger-idea.png" alt="logger idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6" style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 2: Litter Identifier & Logger Application</h3>
                         <p>
                             Using the camera and AI to classify
@@ -134,7 +134,7 @@
                         <img src="images/reward-idea.jpg" alt="reward-based app idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6" style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 3: Reward-Based Mobile Application</h3>
                         <p>
                             Photos to log litter location.
@@ -155,7 +155,7 @@
                         <img src="images/video-idea.png" alt="video idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6" style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 4: Trash Cam x Social Media</h3>
                         <p>
                             Record the litter-prone areas for 1-2 hours.
@@ -177,11 +177,11 @@
                         <img src="images/iotbin-idea.jpg" alt="iot sensor bins idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6"  style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 5: IoT sensor-based bins<h3>
-                        <p>
+                        <p style="line-height: 1.5;">
                             Use IoT sensors to detect and alert the town council when the bin is full.
-                            Fully automated – bins report their own status.
+                            Fully automated - bins report their own status.
                             Provides real time and accurate data.
                             Enables predictive planning.
                         </p>
@@ -197,7 +197,7 @@
                         <img src="images/AI-bin-ideapng.png" alt="ai sorting bin idea"
                             class="img-fluid rounded shadow img-fixed-size">
                     </div>
-                    <div class="col-lg-6"  style="text-align: justify;">
+                    <div class="col-lg-6">
                         <h3>Idea 6: AI Automated Waste Sorting Bins</h3>
                         <p>
                             The problem is post-collection sorting of waste.
@@ -256,8 +256,10 @@
 
 <style>
     .img-fixed-size {
-        width: 80%;
-        height: 700px; /* or adjust to what fits your design */
-        object-fit: cover;
+        display: flex;
+        margin: auto;
+        height: 50%; /* or adjust to what fits your design */
+        object-fit: fill; /* maintains aspect ratio while filling the space */
+        /* width: 100%; ensures the image takes full width of the column */
     }
 </style>

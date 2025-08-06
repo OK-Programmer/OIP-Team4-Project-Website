@@ -24,6 +24,33 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/templatemo-the-fork-landing.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+        overflow-x: hidden;
+        }
+
+        html {
+        overflow-x: hidden;
+        }
+        .gallery-item {
+        width: 100%;            /* full width of column */
+        position: relative;
+        padding-top: 100%;      /* 100% padding-top = 1:1 aspect ratio */
+        overflow: hidden;
+        }
+
+        .gallery-image {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -94,13 +121,13 @@
                             and to encourage more people to volunteer with Friends Of the River Kelvin to pollution. 
                         </p>
 
-                        <a href="portfolio.html" class="btn custom-btn smoothscroll me-3">View Design Journey</a>
+                        <a href="portfolio.html" class="btn custom-btn smoothscroll me-2">Design Journey</a>
 
-                        <a href="ideas.html" class="link link--kale smoothscroll">Our Other Ideas</a>
+                        <a href="ideas.html" class="btn custom-btn smoothscroll">Other Ideas</a>
 
                     </div>
 
-                    <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
+                    <div class="hero-image-wrap col-lg-6 col-12 mt-3 mb-2 mt-lg-0">
                         <img src="images/homepage-ss.png" class="hero-image img-fluid"
                             alt="AI litter identification">
                     </div>
@@ -114,7 +141,7 @@
             <div class="container">
                 <div class="col-lg-8 col-12">
                     <div class="avatar-group d-flex align-items-center">
-                        <h3 style="padding-right: 15px;">Team 4</h3>
+                        <h5 style="padding-right: 15px;">Team 4</h5>
 
                         <img src="images/avatar/jm.jpg" class="img-fluid avatar-image" alt="">
 
@@ -133,40 +160,40 @@
         </section>
         
 
-        <section class="about-section section-padding" id="section_about">
-             <div class="container mb-5">
-                <div class="row mx-auto">
-                    <div class="text-center mb-5">
-                        <h2 class="mb-4">Our Problem Statement</h2>
-                        <h4 class="mx-5">Some visitors of the River Kelvin are littering, maybe because they find it inconvenient to 
-                            carry their waste to throw in bins, which pollutes the river and areas around it affecting 
-                            the environment and the flora and fauna.</h4>
-                    </div>
-                </div>
-            </div>
+        <section class="about-section section-padding bg-light" id="section_about">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                        <!-- <img src="images/kelvinWalk/clientSelfie.jpg" class="img-fluid rounded shadow w-75" alt="Team Working"> -->
-                         <img src="images/kelvinWalk/clientSelfie.JPG"
-     alt="Team Working"
-     class="img-fluid rounded shadow"
-     style="width:90%; height:900px; object-fit: cover; border-radius: 12px;">
-
-                    </div>
-                    <div class="col-lg-6 col-12 d-flex flex-column justify-content-center" style="text-align: justify;">
-                        <h2 class="mb-4">About Us</h2>
-
-                        <p>We are a team of Computing Science students from the Singapore Institute of Technology and the University of Glasgow, 
-                            working on a project for our Overseas Immersion Programme in Glasgow. Our goal is to use modern design thinking to create effective
-                            solutions for social or environmental issues.</p>
-
-                        <p>Through this project, we aim to develop not just our design and presentation skills, but also create a meaningful
-                            solution to a real-world environmental problem.</p>
+                <div class="row mx-auto">
+                    <div class="text-center">
+                        <h2 class="mb-4">
+                            Our Problem Statement
+                        </h2>
+                        <h5 class="mx-4">
+                            Some visitors of the River Kelvin are littering, maybe because they find it inconvenient to 
+                            carry their waste to throw in bins, which pollutes the river and areas around it affecting 
+                            the environment and the flora and fauna.
+                        </h5>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex mx-auto">
+                     <img src="images/clientSelfie2.png" alt="Team Working" class="img-fluid rounded shadow" 
+                     style="height:900px; object-fit: fill; border-radius: 20px; margin-top: 30px; margin-bottom: 30px;">
+                </div>
+                <div class="col-lg-6 col-12 d-flex flex-column justify-content-center" style="text-align: justify;">
+                    <h2 class="mb-4">About Us</h2>
+
+                    <p>We are a team of Computing Science students from the Singapore Institute of Technology and the University of Glasgow, 
+                        working on a project for our Overseas Immersion Programme in Glasgow. Our goal is to use modern design thinking to create effective
+                        solutions for social or environmental issues.</p>
+
+                    <p>Through this project, we aim to develop not just our design and presentation skills, but also create a meaningful
+                        solution to a real-world environmental problem.</p>
+                </div>
+            </div>
+        </div>
 
 
         <!-- GALLERY SECTION -->
@@ -657,23 +684,3 @@
 </body>
 
 </html>
-
-<style>
-.gallery-item {
-  width: 100%;            /* full width of column */
-  position: relative;
-  padding-top: 100%;      /* 100% padding-top = 1:1 aspect ratio */
-  overflow: hidden;
-}
-
-.gallery-image {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-
-</style>
