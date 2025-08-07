@@ -165,6 +165,10 @@ strong {
   left: -40px;
 }
 
+.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left{
+  left: -50px;
+}
+
 .avatar-group,
 .reviews-group {
   position: relative;
